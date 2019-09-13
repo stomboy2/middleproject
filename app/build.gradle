@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.example.middleproject"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
+    testImplementation 'junit:junit:4.13-beta-3'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha02'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha02'
+
+    implementation 'com.android.support:design:28.0.0'
+    implementation('com.squareup.retrofit2:retrofit:2.6.1') {
+        exclude module: 'okhttretrofitp'
+    }
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'gun0912.ted:tedpermission:2.2.2'
+
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+//    implementation project(':commExpert')
+    implementation files('libs/KeySharpDevice_1.0.5.jar')
+    implementation files('libs/KeySharpWireless1_ex_1.5.6.jar')
+    implementation files('libs/midoulibrary.jar')
+    implementation files('libs/mTranskeyCrypto.jar')
+    implementation files('libs/mvigsengine.jar')
+    implementation files('libs/SDB_JAVA_SHA_API_1000.jar')
+    implementation files('libs/smartcorelib.jar')
+}

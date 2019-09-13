@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/setting_myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="내정보"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@drawable/linear_underline"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/setting_chat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="1:1문의"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/setting_chat_linear"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@drawable/linear_underline"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="로그아웃"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@drawable/linear_underline"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/setting_withdrawal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="탈퇴하기"
+        android:textSize="18sp" />
+</LinearLayout>

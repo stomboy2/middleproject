@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:text="수익성"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="(%/%)"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="항목"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2018/12"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="전년대비"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="매출총이익률" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment1"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment2"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="영업이익률" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment3"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment4"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment5"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="EBITDA마진율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment6"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment7"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment8"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="ROE" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment9"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment10"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment11"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="ROA" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment12"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment13"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment14"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="ROIC" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment15"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment16"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment17"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="성장성"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="(%/%)"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="항목"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="전년대비"
+                    android:textColor="@color/cardview_light_background" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="매출액증가율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment18"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment19"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment20"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="영업이익증가율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment21"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment22"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment23"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="안정성"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="(%/%)"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="항목"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2018/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="전년대비"
+                    android:textColor="@color/cardview_light_background" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="부채비율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment24"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment25"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment26"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="유동비율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment27"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment28"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment29"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="자기자본비율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment30"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment31"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment32"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="이자보상배율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment33"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment34"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment35"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="순부채비율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment36"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment37"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment38"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="활동성"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="(%/%)"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="항목"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2018/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="전년대비"
+                    android:textColor="@color/cardview_light_background" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="총자산회전율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment39"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment40"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment41"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="총부채회전율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment42"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment43"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment44"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="총자본회전율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment45"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment46"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment47"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="순운전자본회전율" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment48"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment49"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment50"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="가치지표"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="(원/배/%/%)" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="항목"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2016/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2017/12"
+                    android:textColor="@color/cardview_light_background" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="전년대비"
+                    android:textColor="@color/cardview_light_background" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="EPS" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment51"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment52"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment53"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="BPS" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment54"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment55"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment56"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="SPS" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment57"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment58"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment59"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="수정DPS" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment60"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment61"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment62"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="현금배당성향" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment63"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment64"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment65"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="PER" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment66"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment67"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment68"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="PBR" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment69"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment70"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment71"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="PCR" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment72"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment73"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment74"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="PSR" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment75"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment76"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment77"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor1"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView128"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@color/companybackcolor2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="EV/EBITDA" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment78"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment79"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <TextView
+                    android:id="@+id/detail_info_investment80"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.1dp"
+                    android:background="@color/companybackcolor2"
+                    android:gravity="right"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
